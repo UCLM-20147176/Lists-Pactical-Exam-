@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Document 1</title>
+        <style>
+            table{
+                border-collapse: collapse;
+                
+            }
+            td{
+                border: 1px solid;
+            }
+
+        
+        </style>
+    </head>
+    <body>
+        <table>
+            <tr>
+                <td>Header</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Column 1</td>
+                <td>Column 2</td>
+            </tr>
+            <tr>
+                <td>Row1</td>
+                <td>Data11</td>
+                <td>Data12</td>
+            </tr>
+            <tr>
+                <td>Row2</td>
+                <td>Data21</td>
+                <td>Data22</td>
+            </tr>
+            <tr>
+                <td>Row3</td>
+                <td>Data31</td>
+                <td>Data32</td>
+            </tr>
+            
+        </table>
+    </body>
+
+
+
+
+
+
+
+
+</html>
