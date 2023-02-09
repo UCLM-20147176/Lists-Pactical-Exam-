@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class EggsPlarisan{
+   public static void main(String[] args){
+      
+      Scanner sc = new Scanner(System.in);
+      int loose, dozen, order;
+      double total, totaloose, overalltotal;
+      
+      System.out.println("Enter order amount: ");
+      order = sc.nextInt();
+      
+      dozen = order / 12;
+      loose = order % 12;
+      totaloose = loose * .45;
+      total =(double)dozen * 3.25;
+      overalltotal = total + totaloose;
+      
+      System.out.println("That is " +dozen+ " dozen at $3.25 per dozen and " +loose+ " loose eggs at 45 cents each for a total of $" +overalltotal); 
+      
+   }
+}
